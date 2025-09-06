@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First API Project</title>
+    <style>
+        
+        
+        
+        button {
+        
+            border: none;
+            border-bottom-right-radius: 50px;
+            padding: 10px 20px;
+            text-align: center;
+            font-size: 16px;
+            color: white; 
+            width: 100%;
+            background-color: brown;
+        }
+        button:hover {
+            background-color: white;
+            color: brown;
+            border: 2px solid brown;
+}
+        a{
+           
+           text-decoration: none;
+        }
+        #btn{
+          width: auto;
+            border-top-left-radius: 20px;
+            border-bottom-right-radius: 20px
+        }
+        h1 {
+            color: brown;
+        }
+        
+        p {
+            font-size: large;
+        }
+        
+        .header {
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            border-bottom: 2px brown solid;
+        }
+        
+        #divId2 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
+            padding: 20px;
+        }
+        
+        
+        .team-card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            padding: 25px;
+            text-align: center;
+            transition: transform 0.3s ease;
+            border-top-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+            border: 1px solid brown;
+            margin: 50px 400px;
+        }
+        
+        .team-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .member-name {
+            color: brown;
+            font-size: 1.5rem;
+            margin: 15px 0 5px;
+        }
+        
+        
+        .user {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.4s ease;
+            border-top-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+            border: 1px solid brown;
+        }
+        
+        .user:hover {
+            transform: translateY(-6px);
+        }
+        
+        .user h1 {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+        
+        .user img {
+            border-radius: 50%;
+            height: 280px;
+            width: 300px;
+            margin-top: 15px;
+            border: 2px solid brown;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div>
+            <h1>WELCOME TO THE COUNTRY API</h1>
+            
+        </div>
+    </div>
+
+   
+        
+        <div class="team-card">
+            <h3 class="member-name">    CLICK HERE FOR </h3>
+            <p class="member-title">User API</p>
+            <div class="member-contact">
+                <a href="./index.html"><button id="btn">CLICK</button></a>
+            </div>
+        </div>
+        
+    </div>
+    
+    <div id="divId2"></div>
+
+    <script src="./api2.js" >     
+    </script>
+</body>
+</html>
